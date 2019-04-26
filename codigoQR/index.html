@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lector QR</title>
+    <script src="qrcode-lib.js"></script>
+    <script src="reader.js"></script>
+</head>
+<body>
+    <h1>QR Lector de codigo</h1>
+    <img width="100" style="display:none" id="qr">
+    <output> Sin Resultados </output>
+
+    <h2>Tomar una foto</h2>
+    <input type="file" accept="image/*"> 
+
+    <h2>Live Streaming</h2>
+    <input type="button" value="Iniciar camara" id="btnCamara">
+    <input type="button" value="Capturar" id="btnCaptura">
+
+    <video  width="320" height="240"></video>
+</body>
+</html>
